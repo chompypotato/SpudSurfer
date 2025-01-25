@@ -1,4 +1,30 @@
+# Exclude node_modules
 node_modules/
 
-!package-lock.json
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables file
+.env
+
+# Production build files
+/build
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Include package-lock.json
+# !package-lock.json
 
