@@ -70,8 +70,9 @@ io.on("connection", (socket) => {
   })
 })
 
-const PORT = process.env.PORT || 3000
-httpServer.listen(PORT, () => {
-  console.log(`SpudSurfer server running on port ${PORT}`)
+const port = process.env.PORT || 3000
+
+httpServer.listen(port, () => {
+  console.log(`SpudSurfer server running on port ${port}`)
 })
 
