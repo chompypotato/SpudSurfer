@@ -5,8 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js",
-    "heroku-postbuild": "npm ci --production=false"
+    "dev": "nodemon server.js"
   },
   "dependencies": {
     "express": "4.17.1",
